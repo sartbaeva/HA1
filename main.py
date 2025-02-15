@@ -5,7 +5,7 @@
 #2. Access tuple items sister by using index numbers
 #3. Check whether we can add an item me by using the append() method.
 #4. Check whether we can remove the item brother by using the pop()
-method.myfamily = ("mother", "father", "sister", "brother", "sister")
+myfamily = ("mother", "father", "sister", "brother", "sister")
 print(myfamily)
 
 type_of_myfamily = type(myfamily)
@@ -30,16 +30,13 @@ except AttributeError as e:
 #2. Add new information (key: value)by using a boolean data type as value and home as key: This laptop is at home now, so "home": True
 #3. Modify the value of the key year to 2019
 laptop = {"brand": "dell", "model": "alienware", "year": 2010}
-
 print("Brand:", laptop["brand"])
-
 laptop["home"] = True
-
 laptop["year"] = 2019
-
 print("Updated laptop dictionary:", laptop)
 
-Q3- Write a program user.py that stores information about a user into a dictionary,user_info = {}
+#Q3- Write a program user.py that stores information about a user into a dictionary,
+user_info = {}
 user_info["name"] = input("Enter your name: ")
 user_info["age"] = int(input("Enter your age: "))
 user_info["email"] = input("Enter your email: ")
